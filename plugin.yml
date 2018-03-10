@@ -1,0 +1,26 @@
+name: Mining-Royal-SocialCommands
+version: 1.0
+author: Junkdarc
+website: http://Mining-Royal.de
+
+main: de.junkdarc.socialcommands.main.SocialCommandsMain
+
+commands:
+  ts:
+  ts3:
+  teamspeak:
+  hp:
+  homepage:
+  forum:
+        
+
+permissions:
+  Junkdarc.Socials.*:
+    description: Alle Sozials Befehle
+    children:
+      Junkdarc.Socials.ts: true
+      Junkdarc.Socials.ts3: true
+      Junkdarc.Socials.teamspeak: true
+      Junkdarc.Socials.hp: true
+      Junkdarc.Socials.homepage: true
+      Junkdarc.Socials.forum: true
